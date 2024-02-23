@@ -21,7 +21,7 @@ namespace Aula5_Pilares_4
         {
             Classe_Conversor_Projeto cn = new Classe_Conversor_Projeto();
             MessageBox.Show("A conversão de reais para dolares é de: R$" + cn.Dol(8));
-            MessageBox.Show("A conversão de dolares para reais é de: $ " + cn.Rel());
+            MessageBox.Show("A conversão de dolares para reais é de: $ " + cn.Dol());
         }
     }
 }

@@ -22,7 +22,7 @@ namespace Aula5_Pilares_4
             return conversao;
         }
 
-        public double Rel()
+        public double Dol()
         {
 
             real = dolar * 4.97;

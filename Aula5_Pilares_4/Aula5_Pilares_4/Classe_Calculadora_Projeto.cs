@@ -12,7 +12,13 @@ namespace Aula5_Pilares_4
         public int val2;
         public int Soma(int v1, int v2)
         {
-            int Somar = v1 + v2;
+            int Somar = v1 + v2; 
+            return Somar;
+        }
+
+        public double Soma(double v1, double v2)
+        {
+            double Somar = v1 + v2;
             return Somar;
         }
     }
