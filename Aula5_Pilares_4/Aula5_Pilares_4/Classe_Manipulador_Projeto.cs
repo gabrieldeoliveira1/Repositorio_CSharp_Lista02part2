@@ -8,12 +8,12 @@ namespace Aula5_Pilares_4
 {
     internal class Classe_Manipulador_Projeto
     {
-        public string txt = "Olá, Mundo";
-        public string txtreverse;
+        public string txt = "Olá, Mundo!";
+        public string txtreverse = "";
 
         public string Inverter()
         {
-            for (int i = txt.Length; i >= 0; i--)
+            for (int i = txt.Length - 1; i >= 0; i--)
             {
                 txtreverse += txt[i];
                
